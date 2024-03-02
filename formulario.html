@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+    <link rel="icon" type="img/png" href="/img/icon.png">
+    
+</head>
+<body div class="cuerpo">
+    <h1 id="frase2">Breaking Bad - Que comience el juego!</h1>
+    <br>
+    <br>
+    <form action="mailto:raul.rodriguez@proeducaglobal.com" method="post" name=""formulario" id="formulario">
+    <fieldset>
+        <legend>Formulario Breaking Bad</legend>
+    </fieldset>
+    <fieldset>
+        <legend>Datos Personales</legend>
+    <br>
+    Nombre: <input type="text" name="caja" id="name" placeholder="Eje. César" required>
+    <br>
+    Apellidos: <input type="text" name="caja" id="apellido" placeholder="Eje. Lopez García" value="" required>
+</fieldset>
+    <br>
+    <fieldset>
+        <legend>Dirección Postal</legend>
+      
+    Calle: <input type="text" name="caja" id="calle" placeholder="Eje. Calle Bailen" > 
+    <br>
+    Número: <input type="number" name="numero" id="espacio" placeholder="Eje.9">
+    Piso: <input type="number" name="piso" id="espacio" placeholder="Eje.39">
+    C.P: <input type="number" name="c.p" id="espacio" placeholder="Eje.28011">
+    Ciudad: <input type="name" name="ciudad" id="espacio" placeholder="Eje.Madrid">
+    <br>
+    DNI: <input type="name" name="dni" id="documento" placeholder="Eje.12345677x">
+    EMAIL: <input type="email" name="correo" id="documento" placeholder="Eje.correo@dominio.com/es" required>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Datos Personales</legend>
+     <br>
+     Sexo: <input type="radio" name="sexo" value="H"> HOMBRE
+           <input type="radio" name="sexo" value="M"> MUJER
+           <input type="radio" name="sexo" value="N/C"> NO CONTESTO
+           <br>
+    Fecha de Nacimiento: <input type="date" name="fecha" min="1960-03-25"
+                                        max="2018-05-25" step="2">
+    </fieldset>
+    <fieldset>
+        <legend>BREAKING BAD</legend>
+     Elige tu personaje favorito: <select name="Personaje" id="person">
+        <option value="1">Elige tu personaje favorito-</option>
+        <option value="2">Jessie Pinkman</option>
+        <option value="3">Walter White</option>
+        <option value="4">Saul Goodman</option>
+        <option value="5">Gustavo Fring</option>
+        <option value="6">Pollos Hermanos</option>
+        <option value="7">Otros Personajes</option>
+     </select> 
+     <br>
+     Comentario: <textarea placeholder="Escriba algún comentario sobre la serie..." name="texto" id="coment"
+        cols="110" rows="10">Escriba algún comentario sobre la serie...</textarea>
+        <br>
+        </fieldset>
+        <fieldset>
+        <input type="submit" value="Enviar" id="button">
+        <input type="submit" value="Reiniciar" id="button">
+        <input type="file" name="adjunto" accept=".pdf,.jpg,.png" multiple id="button">
+    </fieldset>
+      </form>
+  
+</body>
+</html>

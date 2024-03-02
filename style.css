@@ -1,0 +1,171 @@
+@font-face {
+    font-family: "tebeo";
+    src: url("/font/Breaking.ttf");
+    
+}
+body { background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+.img-2 { height: 210px;
+    width: 205px;
+    margin-left: 820px;    
+}
+#frase {
+    position: absolute;
+    width: 100%;
+    color: white;
+    font-family: "tebeo"; 
+    font-size: 55px; 
+    margin-top: -5px;
+    text-align: center;
+}
+.img-3 {
+    height: 310px;
+    width: 700px;    
+    border-radius: 22px;
+    border: 10px outset brown;
+    margin-top: 90px;
+    margin-left: 520px;
+}
+
+.cuerpo { background-image: url("img/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;    
+}
+#frase2 {
+    position: initial;
+    width: 100%;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif ; 
+    font-size: 95px; 
+    margin-top: -5px;
+}
+#formulario {
+    margin: auto;
+    border: 10px;
+    width: 900px;
+    height: 900px;
+    color: rgb(79, 11, 70);
+    font-size: 20px;
+    margin-top: -5%;
+    font-weight: bold;
+}
+#calle {
+    width: 600px;
+    height: 20px;
+}
+#espacio {
+    width: 95px;
+    height: 20px;
+}
+#documento {
+    width: 300px;
+    height: 20px;
+}
+#person {
+    border: 1px solid #ccc;
+    padding: 2px;
+    margin: 0;     
+    float: left;
+    width: 455px;
+    height: 25px;
+}
+#coment {
+    float: left;
+}
+#button {
+    font-weight: bold;
+}
+.general { 
+    background-color: #0c3e11;
+    background-image: none;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif; 
+    font-weight: bold;
+    text-align: center;
+    }
+#screen {
+    background-color: #0c3e11;
+}
+
+.tabla {
+    background-color: #061d08;
+    width: 720px;
+    height: 600px; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-spacing: 10px;
+}
+
+.tabla2 {
+    background-color: #061d08;
+    width: 700px;
+    height: 100px; 
+    margin-left: auto;
+    margin-right: auto; 
+    border-spacing: 8px;
+}
+
+.tr2{
+    background-color: #ffd417;
+}
+
+.casimg1{
+    width: 80%;
+    height: 80%;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h6 {
+    font-size: 9px;
+}
+
+h2,h6 {
+    margin-top: -2px;
+    margin-bottom: 0px;
+}
+
+td {
+    width: 90px;
+    height: 60px;
+}
+
+#verdecrem {
+    background-color: #89A419;
+    }
+#verdecla {
+    background-color: #B8DC19;    
+}
+#verdeoscuro {
+    background-color: #637124;
+    }
+#verdeoscu {
+    background-color: #828E50;
+}
+#verdeclaro {
+    background-color: #D5EA73;
+    }
+#vercla2 {
+    background-color: greenyellow;
+}
+#grey {
+    background: #C2C721;
+   }
+#lechuga {
+    background-color: #C7E538;
+    }
+#claro {
+    background-color: #BCC49E;
+}
+#morado {
+    background-color: purple;
+}
+
